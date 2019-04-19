@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>interviewBOT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <% for(var i=0;i<chatLogs.length;i++) { %>
+        <div class="interviewCard">
+          <h3>Interview <%= i + 1 %></h3>
+          <div class="responses">
+            <ul>
+              <% for(var j=0;j<chatLogs[i].responses.length;j++) { %>
+                <li><%= chatLogs[i].responses[j] %></li>
+              <% } %>
+            </ul>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </body>
+</html>
