@@ -1,0 +1,22 @@
+h1 {
+ color: #F97300;
+}
+
+label {
+ color: #666666;
+}
+
+button {
+  background-color: #F97300;
+  color: white;
+  border: #F97300;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: #666666;
+}

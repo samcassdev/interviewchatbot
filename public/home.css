@@ -1,0 +1,89 @@
+header img {
+  height: 80px;
+  margin-left: 40px;
+}
+body {
+  /* height: 125vh; */
+  height: 100vh;
+  background-image: url('../img/landingpage.jpeg');
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Change the link color to orange on hover */
+li a:hover {
+  background-color: orange;
+}
+
+.description{
+  top: 30%;
+  /* margin: auto; */
+  margin-top: 100px;
+  padding: 2em;
+}
+
+.description h1{
+  color:#F97300 ;
+}
+
+.description p{
+  color:#666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.description button{
+  border:1px  solid #F97300;
+  background:#F97300;
+  color:#fff;
+}
+
+.description a{
+  text-decoration: none;
+  color: white;
+}
+
+#about {
+  height: 300px;
+}
+
+#portfolio {
+  height: 300px;
+}
+
+#blog {
+  height: 300px;
+}
+
+#team {
+  height: 300px;
+}
