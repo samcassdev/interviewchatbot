@@ -19,7 +19,7 @@
 	/* height: 775px; */
 	margin-top: 20px;
 	border:1px solid #dddddd;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	/* position: relative; */
 	position: fixed;
 	/* bottom: 5vh;
@@ -30,6 +30,7 @@
 	width: 25%;
 	bottom: 6vh;
 	right: 7vw;
+	border-radius: 20px;
 }
 
 #chat-history{
@@ -43,6 +44,11 @@
   overflow: auto;
   box-sizing: border-box;
   color: #ECF0F1;
+	/* background-color: #f8f8f8;
+  padding: .5rem .75rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 20px; */
 }
 
 #message{
@@ -68,14 +74,21 @@
 
 #status{
 	padding-left: 20px;
+	color: white;
 }
 
 .user-message b{
-	color: #2C3E50;
-	font-size: 25px;
+	/* color: #2C3E50; */
+	color: white;
+	/* font-size: 25px; */
+	font-family: sans-serif;
+	font-size: 12px;
 }
 
 .chatbot-message b{
-	color: #962D3E;
-	font-size: 25px;
+	color: white;
+	/* color: #962D3E; */
+	/* font-size: 25px; */
+	font-size: 12px;
+	font-family: sans-serif;
 }

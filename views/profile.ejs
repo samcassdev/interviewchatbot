@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="profile.css">
+  </head>
+  <body>
+    <header>
+      <img src="img/interviewbotlogo.png" alt="">
+      <nav>
+        <ul>
+          <li class="nav-item">
+           <a class="nav-link" data-value="home" href="/">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " data-value="interviews" href="/interview">Interviews</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " data-value="login" href="/login">Log In</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " data-value="signup" href="/signup">Sign Up</a>
+         </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <p>An interview bot is equipped with a question bank that allows it to ask relevant questions to each candidate.</p>
+
+      <p>With interviewBOT, recruiters can set up interviews in less than 5 minutes, and allows interviewees to complete them at their convenience.</p>
+
+      <p>Hundreds of applicants can simultaneously record their interviews with interviewBOT, allowing massive recruitment efforts to be conducted in minutes.</p>
+      <!-- <h1><%= userId %></h1> -->
+      <span>Send this link to your candidate: <a href="chatbot?userId=<%= userId %>" ><%= `localhost:8080/chatbot?userId=${userId}` %></a></span>
+    </section>
+  </body>
+</html>

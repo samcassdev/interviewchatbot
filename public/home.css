@@ -48,22 +48,27 @@ li a:hover {
   /* margin: auto; */
   margin-top: 100px;
   padding: 2em;
+  border: 1px solid grey;
+  width: 60%;
+  background-color: grey;
+  opacity: .80;
+  border-radius: 25%;
 }
 
 .description h1{
-  color:#F97300 ;
+  color:#F97300;
 }
 
 .description p{
-  color:#666;
+  color: white;
   font-size: 20px;
-  width: 50%;
+  /* width: 50%; */
   line-height: 1.5;
 }
 
 .description button{
   border:1px  solid #F97300;
-  background:#F97300;
+  background: #F97300;
   color:#fff;
 }
 

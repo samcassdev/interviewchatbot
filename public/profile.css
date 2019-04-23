@@ -1,0 +1,29 @@
+.resize {
+  height: 300px;
+  width: 30%;
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: 100px;
+  padding: 2em;
+  border: 1px solid grey;
+  width: 55%;
+  background-color: grey;
+  opacity: .80;
+  border-radius: 25%;
+  font-size: 15px;
+  line-height: 1.5;
+}
