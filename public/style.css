@@ -27,7 +27,7 @@
 }
 
 #chat-history{
-	height: calc(100% - 108px);
+	height: calc(100% - 75px);
 }
 
 #chat-history ul{

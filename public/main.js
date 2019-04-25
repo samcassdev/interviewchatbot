@@ -65,9 +65,9 @@ document.getElementById('toggler').addEventListener('click', function (event) {
 
 //object with some fake responses
 var botResponses = {
-	"Hey" : "Hey there! How are you?", "hey" : "Hey there! How are you?", "Hi" : "Hey there! How are you?", "hi" : "Hey there! How are you?", "Hello" : "Hey there! How are you?", "hello" : "Hey there! How are you?",
+	"Hey" : "Hey there! How are you? Please provide your full name and email address in your response.", "hey" : "Hey there! How are you? Please provide your full name and email address in your response.", "Hi" : "Hey there! How are you? Please provide your full name and email address in your response.", "Hello" : "Hey there! How are you? Please provide your full name and email address in your response.", "hello" : "Hey there! How are you? Please provide your full name and email address in your response.",
 
-	"doing well" : "Great to hear! Are you ready for your interview?", "doing good" : "Great to hear! Are you ready for your interview?", "doing fine" : "Great to hear! Are you ready for your interview?", "doing alright" : "Great to hear! Are you ready for your interview?", "not bad" : "Great to hear! Are you ready for your interview?", "not too bad" : "Great to hear! Are you ready for your interview?",
+	"doing well" : "Great to hear! Are you ready for your interview?", "doing good" : "Great to hear! Are you ready for your interview?", "doing fine" : "Great to hear! Are you ready for your interview?", "doing alright" : "Great to hear! Are you ready for your interview?", "not bad" : "Great to hear! Are you ready for your interview?", "not too bad" : "Great to hear! Are you ready for your interview?", "@" : "Great to hear! Are you ready for your interview?",
 
 	"Yes" : "Great! Let's get started, shall we?", "yes" : "Great! Let's get started, shall we?",
 
@@ -193,5 +193,5 @@ function getBotMessage(userMsg){
 	}
 
 	//if no keyword is recognized, just return generic response
-	return 'Umm, idk what to say here...sorry ';
+	return 'Sorry, I did not understand that';
 }
