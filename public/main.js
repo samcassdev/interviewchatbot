@@ -66,24 +66,45 @@ document.getElementById('toggler').addEventListener('click', function (event) {
 //object with some fake responses
 var botResponses = {
 	"Hey" : "Hey there! How are you?", "hey" : "Hey there! How are you?", "Hi" : "Hey there! How are you?", "hi" : "Hey there! How are you?", "Hello" : "Hey there! How are you?", "hello" : "Hey there! How are you?",
-	"doing well" : "Great to hear! Are you ready for your interview?", "doing good" : "Great to hear! Are you ready for your interview?", "doing fine" : "Great to hear! Are you ready for your interview?",
-  "Yes" : "Great! Let's get started, shall we?", "yes" : "Great! Let's get started, shall we?",
-  "Okay" : "Can you tell me a little about yourself?", "ok" : "Can you tell me a little about yourself?", "OK" : "Can you tell me a little about yourself?", "Ok" : "Can you tell me a little about yourself?",
-  "I am" : "How did you hear about the position?",   "about myself" : "How did you hear about the position?",
+
+	"doing well" : "Great to hear! Are you ready for your interview?", "doing good" : "Great to hear! Are you ready for your interview?", "doing fine" : "Great to hear! Are you ready for your interview?", "doing alright" : "Great to hear! Are you ready for your interview?", "not bad" : "Great to hear! Are you ready for your interview?", "not too bad" : "Great to hear! Are you ready for your interview?",
+
+	"Yes" : "Great! Let's get started, shall we?", "yes" : "Great! Let's get started, shall we?",
+
+  "Okay" : "Can you tell me a little about yourself?", "okay" : "Can you tell me a little about yourself?", "ok" : "Can you tell me a little about yourself?", "OK" :
+	"Can you tell me a little about yourself?", "Ok" : "Can you tell me a little about yourself?", "Sure" : "Can you tell me a little about yourself?", "sure" : "Can you tell me a little about yourself?",
+
+  "I am" : "How did you hear about the position?", "about myself" : "How did you hear about the position?", "my experience" : "How did you hear about the position?", "I have" : "How did you hear about the position?",
+
 	"this position" : "What do you know about the company?", "I heard" : "What do you know about the company?",
-	"company" : "What are your greatest professional strengths?",
+	"company" : "What are your greatest professional strengths?", "about this company" : "What do you know about the company?", "referral" : "What do you know about the company?", "job board" : "What do you know about the company?", "careers page" : "What do you know about the company?", "jobs board" : "What do you know about the company?", "job listing" : "What do you know about the company?",
+
+	"the company" : "What are your greatest professional strengths?", "The company" : "What are your greatest professional strengths?",
+
 	"greatest" : "What do you consider to be your weaknesses?", "strengths" : "What do you consider to be your weaknesses?", "strength" : "What do you consider to be your weaknesses?",
-	"weakness" : "What is your greatest professional achievement?",
-	"achievement" : "'Tell me about a challenge or conflict you have faced at work, and how you dealt with it',", "greatest" : "Tell me about a challenge or conflict you have faced at work, and how you dealt with it",
-	"challenge" : "Where do you see yourself in five years?", "conflict" : "Where do you see yourself in five years?",
-	"five" : "What are you looking for in a new position?", "5" : "What are you looking for in a new position?",
-	"am looking for" : "What type of work environment do you prefer?", "new position" : "What type of work environment do you prefer?",
-	"work environment" : "Describe a time where you exercised leadership?", "environment" : "Describe a time where you exercised leadership?",
-	"leadership" : "How would your boss and co-workers describe you?",
-	"describe me as" : "What are your salary requirements?", "would say that I am" : "What are your salary requirements?",
-	"salary" : "Do you have any questions for us?", "pay" : "Do you have any questions for us?", "$" : "Do you have any questions for us?",
-	"?" : "Thank you for your time today",
-	"Bye" : "Goodbye", "bye" : "Goodbye", "Goodbye" : "Goodbye", "goodbye" : "Goodbye", "Take care" : "Goodbye", "take care" : "Goodbye"
+
+	"weakness" : "What is your greatest professional achievement?", "weaknesses" : "What is your greatest professional achievement?",
+
+	"achievement" : "'Tell me about a challenge or conflict you have faced at work, and how you dealt with it',",
+
+	"challenge" : "Where do you see yourself in five years?", "conflict" : "Where do you see yourself in five years?", "dealt" : "Where do you see yourself in five years?",
+
+	"five" : "What are you looking for in a new position?", "5" : "What are you looking for in a new position?", "see myself" : "What are you looking for in a new position?", "predict" : "What are you looking for in a new position?",
+
+
+	"am looking for" : "What type of work environment do you prefer?", "new position" : "What type of work environment do you prefer?", "new role" : "What type of work environment do you prefer?", "next job" : "What type of work environment do you prefer?", "next role" : "What type of work environment do you prefer?", "looking for" : "What type of work environment do you prefer?", "new job" : "What type of work environment do you prefer?",
+
+	"work environment" : "Describe a time where you exercised leadership?", "environment" : "Describe a time where you exercised leadership?", "dynamic" : "Describe a time where you exercised leadership?", "culture" : "Describe a time where you exercised leadership?", "atmosphere" : "Describe a time where you exercised leadership?",
+
+	"leadership" : "How would your boss and co-workers describe you?", "exercised" : "How would your boss and co-workers describe you?", "practiced" : "How would your boss and co-workers describe you?", "leader" : "How would your boss and co-workers describe you?",
+
+	"describe me as" : "What are your salary requirements?", "would say that I am" : "What are your salary requirements?", "my boss" : "What are your salary requirements?", "would say that I" : "What are your salary requirements?",
+
+	"salary" : "Do you have any questions for us?", "pay" : "Do you have any questions for us?", "$" : "Do you have any questions for us?", "budget" : "Do you have any questions for us?", "negotiate" : "Do you have any questions for us?", "negotiable" : "Do you have any questions for us?",
+
+	"?" : "Thank you for your time today. Your question(s) has been recorded and the recruiter will follow up with you within 3-5 business days. Take care.",
+
+	"Bye" : "Goodbye", "bye" : "Goodbye", "Goodbye" : "Goodbye", "goodbye" : "Goodbye", "Take care" : "Goodbye", "take care" : "Goodbye", "thank you" : "Goodbye", "Thank you" : "Goodbye"
 }
 
 //when the button on a keyboard is pressed
